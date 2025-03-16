@@ -29,7 +29,7 @@ const CounterTimer = () => {
 
     const handleReset=()=>{
         clearInterval(intervalRef.current)
-        isActive(false);
+        setActive(false);
         setIsPause(false);
         setTime(0)
     }
